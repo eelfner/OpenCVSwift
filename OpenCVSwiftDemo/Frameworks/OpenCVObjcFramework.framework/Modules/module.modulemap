@@ -1,0 +1,6 @@
+framework module OpenCVObjcFramework {
+  umbrella header "OpenCVObjcFramework.h"
+
+  export *
+  module * { export * }
+}
