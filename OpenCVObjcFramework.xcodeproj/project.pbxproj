@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B6A93A271CA5D60E00769532 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A93A261CA5D60E00769532 /* opencv2.framework */; };
 		B6A93A291CA5D94100769532 /* StitcherUser.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A93A281CA5D94100769532 /* StitcherUser.xcassets */; };
+		B6A93A3A1CA6EF6900769532 /* projectOverview.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A93A391CA6EF6900769532 /* projectOverview.png */; };
 		B6AAC0581CA4B880005D78AD /* OpenCVObjcFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B6AAC0571CA4B880005D78AD /* OpenCVObjcFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6AAC0891CA4BAAA005D78AD /* CVWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B6AAC0811CA4BAAA005D78AD /* CVWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6AAC08A1CA4BAAA005D78AD /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6AAC0821CA4BAAA005D78AD /* CVWrapper.mm */; };
@@ -45,6 +46,7 @@
 		B6A93A281CA5D94100769532 /* StitcherUser.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = StitcherUser.xcassets; sourceTree = "<group>"; };
 		B6A93A2A1CA5E3A300769532 /* readme1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = readme1.png; sourceTree = "<group>"; };
 		B6A93A2B1CA5E87200769532 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		B6A93A391CA6EF6900769532 /* projectOverview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectOverview.png; sourceTree = "<group>"; };
 		B6AAC0541CA4B880005D78AD /* OpenCVObjcFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCVObjcFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AAC0571CA4B880005D78AD /* OpenCVObjcFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVObjcFramework.h; sourceTree = "<group>"; };
 		B6AAC0591CA4B880005D78AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		B6AAC0C31CA5CF37005D78AD /* README-resources */ = {
 			isa = PBXGroup;
 			children = (
+				B6A93A391CA6EF6900769532 /* projectOverview.png */,
 				B6A93A2A1CA5E3A300769532 /* readme1.png */,
 				B6A93A2B1CA5E87200769532 /* menu.png */,
 			);
@@ -312,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A93A3A1CA6EF6900769532 /* projectOverview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
